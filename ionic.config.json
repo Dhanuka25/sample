@@ -1,6 +1,6 @@
 {
   "name": "emergency-nurse-practitioner",
-  "app_id": "au.org.rch.vicvax",
+  "app_id": "",
   "type": "ionic-angular",
   "integrations": {
     "cordova": {}
