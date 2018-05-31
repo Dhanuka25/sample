@@ -1,0 +1,64 @@
+<ion-side-menus enable-menu-with-back-views="false" >
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-stable">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu side="left" class="my-menu-color" >
+
+
+    <ion-content  >
+    <div id="rch-menu">
+      <ion-list  >
+      
+        <ion-item nav-clear menu-close  class="my-menu-color" >
+        <img src="img/MVEC_sidebar-logo.png"  class="img-responsive70" / >
+       </ion-item>
+      
+       <ion-item nav-clear menu-close  class="my-menu-color"  href="#/app/home" >
+        <span class="circle_yellow"></span> &nbsp; <span>Home</span>
+       </ion-item>
+       
+       <ion-item nav-clear menu-close class="my-menu-color"  href="#/app/list">
+         <span class="circle_green"></span> &nbsp; <span>Immunisation schedule</span>
+       </ion-item>
+       
+        
+       <ion-item nav-clear menu-close class="my-menu-color" href="#/app/contactus">
+         <span class="circle_blue"></span> &nbsp; <span>Contact Us</span>
+       </ion-item>
+       
+       <ion-item nav-clear menu-close class="my-menu-color"  href="#/app/disclaimer">
+         <span class="circle_purple"></span> &nbsp; <span>Disclaimer</span>
+       </ion-item>
+       
+
+            
+      <!--
+        <ion-item nav-clear menu-close ng-click="login()">
+          Login
+        </ion-item>
+        <ion-item nav-clear menu-close href="#/app/search">
+          Search
+        </ion-item>
+        <ion-item nav-clear menu-close href="#/app/browse">
+          Browse
+        </ion-item>
+        <ion-item nav-clear menu-close href="#/app/schedule">
+          Playlists
+        </ion-item>
+        -->
+        
+      </ion-list>
+    </ion-content>
+    </div>
+  </ion-side-menu>
+</ion-side-menus>

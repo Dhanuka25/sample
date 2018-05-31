@@ -1,0 +1,14 @@
+<ion-view view-title="Playlists">
+ <ion-content  class="padding" >
+    <ion-list>
+      <ion-item ng-repeat="playlist in playlists" href="#/app/playlists/{{playlist.id}}">
+        {{playlist.title}}
+      </ion-item>
+    </ion-list>
+    
+            <a  href="#/app/browse">
+      <img src="cover.jpg">  
+
+    </a>  
+  </ion-content>
+</ion-view>

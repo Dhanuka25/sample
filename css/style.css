@@ -1,0 +1,157 @@
+/* Empty. Add your own CSS if you like */
+
+body {
+
+    font-family: Arial, Helvetica;
+}
+
+.im-home-body
+{
+	background: url('../img/MVEC_background.png') no-repeat center;
+
+	height: 100%;
+    position:relative;
+    background-size: cover;
+    background-position: center;
+    padding-bottom:25%; 
+    padding-top:25%;
+    text-align:center;
+}
+
+.im-home-title
+{
+	color:#FFF;
+	font-weight:600;
+}
+
+.bar.bar-stable {
+    background-color:#FFF;
+    background-image:none;
+    border-color:#FFF;
+    color: #FFF;
+}
+
+.my-menu-color {
+  background-color: #3d5567;
+  color:#fff;
+}
+
+.my-menu-sidebar-header {
+  background-color: #3d5567;
+  background: url('../img/MVEC_sidebar-logo.png') no-repeat center;
+  padding-bottom:200px;
+}
+
+.img-responsive60
+{
+	width: 40%;
+	height: auto;	
+}
+
+.img-responsive40
+{
+	width: 40%;
+	height: auto;	
+}
+
+.img-responsive70
+{
+	width: 70%;
+	height: auto;	
+}
+
+.v-space-top
+{
+	padding-top:20px;	
+}
+
+.v-space-bottom
+{
+	padding-bottom:10px;
+}
+
+.img-responsive
+{
+	width: 100%;
+    height: auto;
+}
+
+h1
+{
+	color:#79c69b;
+}
+
+h2
+{
+	color:#79c69b;
+}
+
+h3
+{
+	color:#79c69b;
+}
+
+.bar.bar-stable .title 
+{
+	color:#79c69b;
+	font-weight:600;
+}
+
+
+.ion-chevron-right::before {
+
+    float: right;
+	color:#79c69b;
+}
+
+#rch-menu .item-content
+{
+	background-color: #3d5567;
+}
+
+.circle_green
+ {
+    background: #7AC79B none repeat scroll 0 0;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.08% 4.8%;
+    width: 1%;
+ }
+ 
+ 
+ .circle_purple
+ {
+    background: #b492c4 none repeat scroll 0 0;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.08% 4.8%;
+    width: 1%;
+ }
+ 
+ .circle_yellow
+ {
+    background: #FFCE34 none repeat scroll 0 0;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.08% 4.8%;
+    width: 1%;
+ }
+ 
+ .circle_blue
+ {
+    background: #679FD5 none repeat scroll 0 0;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.08% 4.8%;
+    width: 1%;
+ }
+ 
+ .risk-grp-text-color {
+  font-family: Arial, Helvetica;
+  text-decoration:none;
+  color:#fff;
+}
